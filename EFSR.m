@@ -1,4 +1,4 @@
-function [Result] = EFNDVI(NIR, RED)
+function [Result] = EFSR(NIR, RED)
 
    %RED = fliplr(RED);
    %NIR = fliplr(NIR);
@@ -6,7 +6,6 @@ function [Result] = EFNDVI(NIR, RED)
    NIR = double(NIR);
    RED = double(RED);
 
-   Result = (NIR-RED)./(NIR+RED);
-  
+   Result = NIR./RED;
+   
 end
-

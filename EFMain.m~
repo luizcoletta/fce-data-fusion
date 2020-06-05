@@ -5,7 +5,7 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
    %         'nameDataset' is the name of the dataset as output in               
    %         folder 'data'.
    %              
-   % Example: [dataset] = EFMain('dataset1', 16, [1,0,0,0], true, [0,0,1], 1);
+   % Example: [dataset] = EFMain('dataset1', 16, [1,0,0,0], true, [0,0,1], 0);
    %           
    % Author: Luiz F. S. Coletta (luiz.fersc@gmail.com) - 30/01/18
    % Update: Luiz F. S. Coletta - 30/01/19
@@ -73,6 +73,7 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
        height = width;
 
        nameFile = strjoin(allNames(r(i)));
+       nameFile = [nameFile(1:size(nameFile,2)-8),'_RGB.tif'];
        
        if (strcmp(nameFile(size(nameFile,2)-6:size(nameFile,2)-4),'RGB'))
            
@@ -124,7 +125,7 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
 
               for k = 1:cols/width % iterate getting subimages from current file (columns)
 
-                  p = [nameFile, ';', int2str(j), ';', int2str(k), ';', int2str(cont)];
+                  p = [nameFile, '-', int2str(j), 'x', int2str(k)];
                   position = [position; [p, repmat(' ', [1,50-size(p,2)])]];
 
                   fprintf('Extracting features of %s - [%d x %d]\n', nameFile, j, k);
@@ -132,7 +133,7 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
                   subImage = imcrop(fullImage, [left, top, width, height]); % left, top, width, height]
 
                   if (cont == 3653)
-                     %figure, imshow(subImage)
+                     figure, imshow(subImage)
                   end 
 
                   if (withGT)
@@ -191,9 +192,19 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
 
                   if (vDescriptors(4))
 
+                      %%%% Obter o NDVI Médio para cada subimagem
+
+                      %%% acho que funciona usar:
                       NDVIsubImage = imcrop(matNDVI, [left, top, width, height]);
+                      %SRsubImage = imcrop(SRImagemCompleta, [left, top, width, height]);
+
                       NDVIMedio = mean(mean(NDVIsubImage));
+                      %SRsubImage = mean(mean(SRsubImage));
+
+
                       featureVector = [featureVector, NDVIMedio];
+
+
                   end
 
                   if (withGT)
@@ -210,13 +221,12 @@ function [dataset] = EFMain(nameDataset, sizeSubImage, vetDescriptors, normalize
                   cont = cont + 1;
               end 
 
-              top = top + height + 1;
-              if (j == 1)
-                  height = height - 1;
-              end 
+          top = top + height + 1;
+          if (j == 1)
+              height = height - 1;
+          end 
          
-            end 
-       end
+       end 
        
        nameFileOld = nameFile;
        
