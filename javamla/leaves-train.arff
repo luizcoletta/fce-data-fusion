@@ -1,0 +1,149 @@
+@relation leaves-train
+
+@attribute 1 numeric
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute 4 numeric
+@attribute 5 numeric
+@attribute 6 numeric
+@attribute 7 numeric
+@attribute 8 numeric
+@attribute 9 numeric
+@attribute 10 numeric
+@attribute 11 numeric
+@attribute 12 numeric
+@attribute 13 numeric
+@attribute 14 numeric
+@attribute 15 numeric
+@attribute 16 numeric
+@attribute 17 numeric
+@attribute 18 numeric
+@attribute 19 numeric
+@attribute 20 numeric
+@attribute 21 numeric
+@attribute 22 numeric
+@attribute 23 numeric
+@attribute 24 numeric
+@attribute 25 numeric
+@attribute 26 numeric
+@attribute 27 numeric
+@attribute 28 numeric
+@attribute 29 numeric
+@attribute 30 numeric
+@attribute 31 numeric
+@attribute 32 numeric
+@attribute 33 numeric
+@attribute 34 numeric
+@attribute 35 numeric
+@attribute 36 numeric
+@attribute 37 numeric
+@attribute 38 numeric
+@attribute 39 numeric
+@attribute 40 numeric
+@attribute 41 numeric
+@attribute 42 numeric
+@attribute 43 numeric
+@attribute 44 numeric
+@attribute 45 numeric
+@attribute 46 numeric
+@attribute 47 numeric
+@attribute 48 numeric
+@attribute 49 numeric
+@attribute 50 numeric
+@attribute 51 numeric
+@attribute 52 numeric
+@attribute 53 numeric
+@attribute 54 numeric
+@attribute 55 numeric
+@attribute 56 numeric
+@attribute 57 numeric
+@attribute 58 numeric
+@attribute 59 numeric
+@attribute 60 numeric
+@attribute 61 numeric
+@attribute 62 numeric
+@attribute 63 numeric
+@attribute 64 numeric
+@attribute 65 numeric
+@attribute 66 numeric
+@attribute 67 numeric
+@attribute 68 numeric
+@attribute 69 numeric
+@attribute 70 numeric
+@attribute 71 numeric
+@attribute 72 numeric
+@attribute 73 numeric
+@attribute 74 numeric
+@attribute 75 numeric
+@attribute 76 numeric
+@attribute 77 numeric
+@attribute 78 numeric
+@attribute 79 numeric
+@attribute 80 numeric
+@attribute 81 numeric
+@attribute 82 numeric
+@attribute 83 numeric
+@attribute 84 numeric
+@attribute 85 numeric
+@attribute 86 numeric
+@attribute 87 numeric
+@attribute 88 numeric
+@attribute 89 numeric
+@attribute 90 numeric
+@attribute 91 numeric
+@attribute 92 numeric
+@attribute 93 numeric
+@attribute 94 numeric
+@attribute 95 numeric
+@attribute 96 numeric
+@attribute 97 numeric
+@attribute 98 numeric
+@attribute 99 numeric
+@attribute 100 numeric
+@attribute 101 numeric
+@attribute 102 numeric
+@attribute 103 numeric
+@attribute 104 numeric
+@attribute 105 numeric
+@attribute 106 numeric
+@attribute 107 numeric
+@attribute 108 numeric
+@attribute 109 numeric
+@attribute 110 numeric
+@attribute 111 numeric
+@attribute 112 numeric
+@attribute 113 numeric
+@attribute 114 numeric
+@attribute 115 numeric
+@attribute 116 numeric
+@attribute 117 numeric
+@attribute 118 numeric
+@attribute 119 numeric
+@attribute 120 numeric
+@attribute 121 numeric
+@attribute 122 numeric
+@attribute 123 numeric
+@attribute 124 numeric
+@attribute 125 numeric
+@attribute 126 numeric
+@attribute 127 numeric
+@attribute 128 numeric
+@attribute 129 numeric
+@attribute 130 numeric
+@attribute 131 numeric
+@attribute 132 numeric
+@attribute 133 numeric
+@attribute 134 numeric
+@attribute 135 {1,0}
+
+@data
+127,262,218,644,188,148,256,209,236,66,77,355,288,302,353,81,378,289,401,61,97,141,174,410,689,417,368,193,80,206,411,144,321,262,59,294,96,116,125,166,230,407,216,104,591,312,340,244,239,207,132,125,191,85,164,533,157,93,315,475,217,187,143,234,21,4,12,21,0,9,7,1,0,0,15,18,1,0,6,0,43,10,7,0,0,6,5,6,68,68,2,0,42,80,1,0,13,9,0,13,3,1,0,0,5,3,0,20,34,17,43,6,1,0,1,0,0,0,28,34,1,0,3,21,1,0,2,23,2.664,0.8406,0.3664,0.9285,0.1842,0.0956,1
+313,432,206,295,238,172,151,368,118,83,209,286,303,239,265,193,489,211,313,329,63,75,384,512,309,358,128,353,194,190,160,107,364,108,560,154,457,579,486,323,415,161,592,180,300,438,172,120,276,199,85,67,88,106,65,100,429,96,101,162,45,62,141,274,69,29,9,22,1,0,0,11,4,0,7,0,2,0,0,4,12,2,2,27,0,24,14,8,0,17,37,3,2,1,4,0,4,0,91,0,38,19,9,1,5,1,19,18,5,4,2,2,26,16,40,0,6,2,0,0,5,0,0,0,0,0,0,9,2.018,0.9076,0.2013,0.9099,0.3098,0.1826,0
+298,355,222,265,61,121,233,123,702,109,170,67,191,191,313,469,153,550,290,489,141,210,141,489,331,97,242,121,211,238,251,184,293,150,236,116,614,177,276,154,440,238,320,117,101,222,383,45,339,202,527,107,124,81,227,146,179,190,234,130,220,405,139,144,113,13,10,6,2,6,2,0,25,0,0,0,10,0,122,13,0,19,26,2,1,32,1,5,10,19,18,1,3,0,5,2,178,0,0,0,139,1,0,38,5,3,13,1,0,0,9,0,69,1,15,21,11,4,24,0,13,0,49,0,1,2,11,6,2.497,0.8673,0.2897,0.93,0.1876,0.1122,1
+50,189,230,355,272,178,338,111,341,279,292,137,219,280,285,256,98,296,254,439,228,293,136,267,214,168,418,588,116,214,379,424,211,473,260,186,127,179,357,371,173,65,150,116,252,236,193,386,190,102,143,252,485,186,119,379,228,196,432,328,78,224,139,129,26,4,12,25,2,0,16,2,3,0,20,0,45,31,1,5,0,14,1,11,8,52,25,2,0,26,4,7,4,6,34,12,61,7,5,5,0,2,3,19,27,5,1,0,4,6,6,11,0,0,0,7,23,1,49,1,24,12,3,9,0,3,0,3,2.44,0.8561,0.3124,0.9067,0.2199,0.1197,1
+367,99,76,95,39,119,289,396,288,448,275,382,582,50,141,178,328,300,91,847,222,74,234,219,195,209,101,39,30,170,413,252,176,181,57,73,117,268,665,609,874,521,122,59,152,66,96,228,155,32,292,157,148,331,165,468,49,484,262,103,181,227,249,232,60,8,0,2,1,0,12,38,20,10,1,23,27,2,1,3,5,1,1,126,17,0,1,5,0,0,0,0,7,0,8,25,14,0,1,0,1,1,43,299,38,36,0,0,0,37,0,0,3,0,9,2,10,18,2,21,16,55,14,0,4,4,4,1,2.17,0.8993,0.2542,0.9325,0.2781,0.1704,1
+80,68,281,160,189,221,179,104,105,100,154,134,274,441,203,555,138,350,151,310,225,344,264,274,111,364,169,500,486,209,123,80,254,263,380,115,182,411,236,594,94,222,327,199,188,779,393,324,320,370,200,88,354,84,485,363,39,199,233,161,159,119,200,52,105,0,3,0,8,36,6,2,1,0,4,0,65,15,0,8,0,0,19,68,0,33,0,6,2,3,0,9,25,0,0,0,0,3,0,6,1,17,2,30,0,0,36,21,0,15,15,1,7,6,0,0,29,0,6,11,0,0,1,8,0,14,4,0,2.649,0.8191,0.4377,0.8855,0.1781,0.09696,1
+139,570,120,90,106,374,64,47,216,166,200,498,88,207,133,337,97,13,338,33,443,229,323,85,244,185,196,183,613,79,190,493,110,56,73,166,108,81,704,190,281,658,388,56,93,141,1084,394,212,68,390,136,215,121,96,320,95,230,83,575,51,249,424,185,22,86,0,16,13,20,6,22,2,5,16,25,5,1,6,8,1,0,25,0,94,10,6,21,5,5,27,3,112,5,1,19,1,14,14,5,3,4,88,35,16,44,46,0,0,16,172,9,3,8,23,1,1,1,1,25,1,4,3,87,0,4,32,4,1.426,0.9463,0.1077,0.9136,0.5766,0.3837,0
+147,456,80,134,680,267,770,274,54,56,112,530,149,74,106,75,227,59,53,958,228,384,365,660,146,81,66,251,64,116,99,396,92,257,390,172,151,132,104,74,985,229,133,45,125,225,721,79,189,110,143,78,110,82,231,230,504,121,134,123,661,196,71,42,37,17,8,4,98,2,132,12,21,14,0,10,66,0,6,1,4,0,0,32,6,159,40,45,5,0,0,48,1,20,8,35,4,32,6,6,4,3,3,3,39,22,2,0,66,84,42,1,4,4,2,6,0,0,37,23,12,5,14,2,54,17,0,0,1.703,0.9277,0.1456,0.9105,0.4365,0.2712,0
+76,357,78,58,353,248,412,40,107,228,252,22,92,204,35,137,132,138,147,26,220,113,312,662,175,87,328,138,204,647,154,624,114,127,548,70,635,247,293,94,282,155,139,48,317,253,632,300,170,669,296,188,53,45,597,241,143,244,112,802,199,118,638,145,16,1,1,0,8,0,25,0,0,0,25,0,0,7,2,0,0,0,3,0,5,1,3,70,3,1,25,0,1,32,0,29,0,0,8,0,162,6,16,0,15,0,0,0,27,1,10,1,14,35,1,5,0,0,3,0,1,15,0,65,2,1,18,0,1.822,0.9002,0.214,0.8663,0.3849,0.2336,0
+128,235,136,232,63,364,163,161,330,40,449,73,126,385,257,337,293,560,280,328,45,114,181,175,293,84,319,303,170,269,194,355,317,214,63,404,75,101,226,582,376,146,86,183,90,243,165,349,304,458,512,70,217,198,615,395,60,170,457,322,298,267,36,314,131,8,4,1,0,20,0,0,1,1,0,0,27,100,9,2,1,2,3,4,1,1,17,0,3,0,3,19,11,0,0,12,5,0,0,2,10,39,2,110,0,0,0,2,2,0,4,1,6,4,4,5,0,2,4,2,1,30,0,3,1,8,0,1,1.796,0.9019,0.2081,0.8596,0.3806,0.2317,0

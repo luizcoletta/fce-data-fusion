@@ -1,0 +1,6 @@
+Author: 	Luiz F. S. Coletta (luiz.fersc@gmail.com)
+Last Update: 	02/05/2014
+WEKA version: 	3-7-11-snapshot (in /home/luiz/developer-branch/weka)
+LibSVM version: 1.0.5 (in /home/luiz/wekafiles/packages/LibSVM)
+JRE:		JavaSE-1.6
+ClassPath:      export CLASSPATH="/home/luiz/developer-branch/weka/weka.jar:~/home/luiz/wekafiles/*"

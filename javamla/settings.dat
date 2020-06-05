@@ -1,0 +1,33 @@
+#
+#
+#
+#
+[KNN] -K 5
+
+# SVM SETTINGS
+# -S  set type of SVM (default 0)	 
+#		 0 = C-SVC
+#		 1 = nu-SVC
+#		 2 = one-class SVM
+#		 3 = epsilon-SVR
+#		 4 = nu-SVR
+# -K  set type of kernel function (default 2)	 
+#		 0 = linear: u'*v
+#		 1 = polynomial: (gamma*u'*v + coef0)^degree
+#		 2 = radial basis function: exp(-gamma*|u-v|^2)
+#		 3 = sigmoid: tanh(gamma*u'*v + coef0)
+# -D  set degree in kernel function (default 3)	 
+# -G  set gamma in kernel function (default 1/k)	 
+# -R  set coef0 in kernel function (default 0)	 
+# -C  set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)	 
+# -N  set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+# -Z  whether to normalize input data, 0 or 1 (default 0)
+# -P  set the epsilon in loss function of epsilon-SVR (default 0.1)
+# -M  set cache memory size in MB (default 40)
+# -E  set tolerance of termination criterion (default 0.001)
+# -H  whether to use the shrinking heuristics, 0 or 1 (default 1)
+# -W  set the parameters C of class i to weight[i]*C, for C-SVC (default 1)
+# [SVM] -K 2 -G 0.03125 -C 0.001953125
+
+# SMO default from WEKA
+[SVM] -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -M -V -1 -W 1 -K "weka.classifiers.functions.supportVector.RBFKernel -G 0.01 -C 250007"
